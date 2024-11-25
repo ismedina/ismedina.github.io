@@ -19,7 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I got Bachelors in Mathematics and Physics from the Universidad Complutense de Madrid, followed by a Master in Mathematics at TU München. 
-I am currently finishing my Ph.D. in optimization and data science at [Uni Göttingen](https://ot.cs.uni-goettingen.de/). I am visiting TU München until February 2025.
+I hold a BSc Mathematics and a BSc Physics from the Universidad Complutense de Madrid, followed by a Master in Mathematics at TU München. 
+I am currently finishing my Ph.D. in optimization and data science at [Uni Göttingen](https://ot.cs.uni-goettingen.de/). My Ph.D. topic is optimal transport, an exciting area of research at the interface between optimization, data science and machine learning, dealing with defining and computing geometrically meaningful distances between probability distributions. I am visiting TU München until February 2025.
 
-I recently completed a scientific traineeship at the European Commission's Joint Research Center, in Ispra, Italy. 
+My previous experience comprises
+* A scientific traineeship at the European Commission's Joint Research Center, in Ispra, Italy. I focused on performance models for PV devices and applying data science and machine learning to geo-spatial PV data. 
+* Contribution as a research assistant to the open source packages Fermifab, Qaintessent.jl and Qaintensor.jl.
+* Industrial experience at Siemens Corporate Technology, working on model order reduction and remaining lifetime estimation.
