@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. candidate at Uni Göttingen. Interested in leveraging data science to power the energetic transition.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 03.10.021</p>
+    <p>Department of Mathematics, TU München</p>
+    <p>Boltzmannstr. 3</p>
+    <p>Garching bei München, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I got Bachelors in Mathematics and Physics from the Universidad Complutense de Madrid, followed by a Master in Mathematics at TU München. 
+I am currently finishing my Ph.D. in optimization and data science at <a href='https://ot.cs.uni-goettingen.de/'>Uni Göttingen</a>. I am visiting TU München until February 2025.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I recently completed a scientific traineeship at the European Commission's Joint Research Center, in Ispra, Italy. 
