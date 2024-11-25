@@ -20,6 +20,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I got Bachelors in Mathematics and Physics from the Universidad Complutense de Madrid, followed by a Master in Mathematics at TU München. 
-I am currently finishing my Ph.D. in optimization and data science at <a href='https://ot.cs.uni-goettingen.de/'>Uni Göttingen</a>. I am visiting TU München until February 2025.
+I am currently finishing my Ph.D. in optimization and data science at [Uni Göttingen](https://ot.cs.uni-goettingen.de/). I am visiting TU München until February 2025.
 
 I recently completed a scientific traineeship at the European Commission's Joint Research Center, in Ispra, Italy. 
