@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New preprint <i>Domain decomposition for entropic unbalanced transport</i>
+title: New preprint - <i>Domain decomposition for entropic unbalanced transport</i>
 date: 2024-10-11 16:11:00-0400
 inline: false
 related_posts: false

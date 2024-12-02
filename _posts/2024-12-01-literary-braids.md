@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Literary Braids
+title: <i>Literary Braids</i>  - Character interactions made graphic
 date: 2024-12-01 16:40:16
 description: Character interactions made graphic
 tags: code, math

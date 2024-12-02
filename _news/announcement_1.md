@@ -2,7 +2,7 @@
 layout: post
 date: 2024-05-15 15:59:00-0400
 inline: false
-title: New preprint <i>Flow updates for domain decomposition of entropic optimal transport</i>
+title: New preprint - <i>Flow updates for domain decomposition of entropic optimal transport</i>
 related_posts: false
 ---
 
