@@ -3,8 +3,11 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
+github_repos_ot:
   - OTGroupGoe/LogSinkhornGPU
   - OTGroupGoe/DomainDecomposition
   - OTGroupGoe/DomDecOT.jl
   - OTGroupGoe/MultiScaleOT.jl
+
+github_repos_pv:
+  - ismedina/climatic-zones-pv

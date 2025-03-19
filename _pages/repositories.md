@@ -33,18 +33,34 @@ nav_order: 3
 
 {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} 
+-->
 
-{% if site.data.repositories.github_repos %} -->
+{% if site.data.repositories.github_repos_pv %} 
 
+## Data science for PV
 
-## Github repositories
-
-My PhD code has mainly dealt with solving optimal transport problems efficiently on CPUs and GPUs.
+My traineeship at the European Commission's Joint Research Center kickstarted a project seeking a flexible, data-oriented approach for the definition of climatic zones with emphasis on PV applications. This repository contains the code for the reproduction of the results, featuring clustering and optimal transport embeddings for distribution-based classifications.
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+  {% for repo in site.data.repositories.github_repos_pv %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
+<br>
 {% endif %}
+
+{% if site.data.repositories.github_repos_ot %}
+## Optimal Transport
+
+My PhD code has mainly dealt with solving optimal transport problems efficiently on CPUs and GPUs. This has involved several areas in convex optimization including linear programming, graph optimization, fixed-point algorithms and primal-dual methods.
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos_ot %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+<br>
+{% endif %}
+
+
