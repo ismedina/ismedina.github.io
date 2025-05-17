@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ismael
 last_name: Medina
-email: firstname.lastname at cs.uni-goettingen.com
+email: firstname.lastname at rizm.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -111,7 +111,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can contact me at firstname.lastname at cs.uni-goettingen.de
+  You may contact me at firstname.lastname at rizm.de
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -201,7 +201,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 7 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true

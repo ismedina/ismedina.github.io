@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Ismael Medina",
-    "label": "Ph.D. in optimization and data science",
+    "label": "Senior Algorithm Developer at RIZM",
     "image": "",
-    "email": "fistname.lastname at cs.uni-goettingen.de",
+    "email": "fistname.lastname at rizm.de",
     "url": "https://ismedina.github.io/",
-    "summary": "Interested in leveraging data science and optimization to power the energetic transition",
+    "summary": "Leveraging data science and optimization to power the energetic transition",
     "location": {
       "address": "Office 03.10.021, Faculty for Mathematics, TU München",
       "postalCode": "85478",
@@ -22,6 +22,14 @@
     ]
   },
   "work": [
+    {
+      "name": "RIZM",
+      "position": "Senior Algorithm Developer",
+      "url": "https://www.rizm.de/?lang=en",
+      "startDate": "2025-04-23",
+      "summary": "Developed optimization and forecasting algorithms to power the energetic transition of large industrial companies.",
+      "highlights": ["optimization", "data science", "energy transition", "energy system modelling", "forecasting"]
+    },
     {
       "name": "Uni Göttingen",
       "position": "Scientific Staff",
@@ -46,15 +54,15 @@
       "endDate": "2020-07-15",
       "summary": "Contributed to the open source, quantum simulation projects Fermifab, Qaintessent.jl and Qaintensor.jl",
       "highlights": ["quantum computing", "scientific computing", "simulation", "open source"]
-    },
-    {
-      "name": "Siemens Corporate Technology",
-      "position": "Working student",
-      "startDate": "2019-08-19",
-      "endDate": "2019-12-31",
-      "summary": "Developed both Python and C/C++ extensions for model order reduction and remaining lifetime estimation using Amesim and NX",
-      "highlights": ["engineering", "model order reduction", "amesim", "NX"]
     }
+    // {
+    //   "name": "Siemens Corporate Technology",
+    //   "position": "Working student",
+    //   "startDate": "2019-08-19",
+    //   "endDate": "2019-12-31",
+    //   "summary": "Developed both Python and C/C++ extensions for model order reduction and remaining lifetime estimation using Amesim and NX",
+    //   "highlights": ["engineering", "model order reduction", "amesim", "NX"]
+    // }
   ],
   // "volunteer": [
   //   {

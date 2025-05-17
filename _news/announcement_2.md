@@ -3,7 +3,8 @@ layout: post
 title: New preprint - <i>Domain decomposition for entropic unbalanced transport</i>
 date: 2024-10-11 16:11:00-0400
 inline: false
-related_posts: false
+related_posts: true
+tags: optimal_transport domain_decomposition
 ---
 
 In this paper with The Sang Nguyen and Bernhard Schmitzer, we explore the application of domain decomposition to unbalanced entropic optimal transport. 
