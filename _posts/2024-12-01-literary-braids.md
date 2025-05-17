@@ -7,7 +7,7 @@ tags: code, math
 categories: sample-posts
 ---
 
-This is a legacy post about a pet-project of mine called *Literary Braids*. It arose as a way of visualizing character interactions between characters in a literary work. Chracters are plotted as threads, which entangle and "braid" as the narrative progresses. For example, this is what *Alice's Adventures in Wonderland* look like from this perspective: 
+This is a legacy post about a pet-project of mine called _Literary Braids_. It arose as a way of visualizing character interactions between characters in a literary work. Chracters are plotted as threads, which entangle and "braid" as the narrative progresses. For example, this is what _Alice's Adventures in Wonderland_ look like from this perspective:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

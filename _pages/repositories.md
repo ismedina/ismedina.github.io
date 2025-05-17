@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: code
-description: 
+description:
 nav: true
 nav_order: 3
 ---
 
-<!-- 
+<!--
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
@@ -33,10 +33,10 @@ nav_order: 3
 
 {% endfor %}
 {% endif %}
-{% endif %} 
+{% endif %}
 -->
 
-{% if site.data.repositories.github_repos_pv %} 
+{% if site.data.repositories.github_repos_pv %}
 
 ## Data science for PV
 
@@ -51,6 +51,7 @@ My traineeship at the European Commission's Joint Research Center kickstarted a 
 {% endif %}
 
 {% if site.data.repositories.github_repos_ot %}
+
 ## Optimal Transport
 
 My PhD code has mainly dealt with solving optimal transport problems efficiently on CPUs and GPUs. This has involved several areas in convex optimization including linear programming, graph optimization, fixed-point algorithms and primal-dual methods.
@@ -62,5 +63,3 @@ My PhD code has mainly dealt with solving optimal transport problems efficiently
 </div>
 <br>
 {% endif %}
-
-

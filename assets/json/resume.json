@@ -190,42 +190,22 @@
     {
       "name": "Data science",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "machine learning",
-        "clustering",
-        "statistical methods",
-        "visualization"
-      ]
+      "keywords": ["machine learning", "clustering", "statistical methods", "visualization"]
     },
     {
       "name": "Optimization",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "convex optimization",
-        "fixed-point algorithms",
-        "linear programming",
-        "optimization on graphs"
-      ]
+      "keywords": ["convex optimization", "fixed-point algorithms", "linear programming", "optimization on graphs"]
     },
     {
       "name": "High Performance Computing",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "GPU computing",
-        "MPI",
-        "finite elements",
-        "shell scripting"
-      ]
+      "keywords": ["GPU computing", "MPI", "finite elements", "shell scripting"]
     },
     {
       "name": "PV science",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "performance models",
-        "PVGIS",
-        "PV simulation", 
-        "IEC-61853"
-      ]
+      "keywords": ["performance models", "PVGIS", "PV simulation", "IEC-61853"]
     }
   ],
   "languages": [
@@ -249,10 +229,7 @@
     {
       "name": "Renewable energy",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "PV energy", 
-        "Energy storage"
-      ]
+      "keywords": ["PV energy", "Energy storage"]
     }
   ],
   // "references": [
