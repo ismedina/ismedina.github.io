@@ -2,9 +2,8 @@
 layout: post
 date: 2024-11-21 07:59:00-0400
 inline: false
-related_posts: true
 title: New preprint - <i>Continuum of coupled Wasserstein gradient flows</i>
-related_posts: true
+related_posts: false
 tags: optimal_transport domain_decomposition
 ---
 

@@ -3,7 +3,7 @@ layout: post
 date: 2025-04-23 09:00:00-0400
 inline: false
 title: I started a new position as Senior Algorithm Developer at RIZM!
-related_posts: true
+related_posts: false
 tags: energy_transition optimization data_science
 ---
 

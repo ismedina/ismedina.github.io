@@ -4,6 +4,7 @@ date: 2024-11-13 07:59:00-0400
 inline: false
 related_posts: false
 title: New journal paper - <i>Climatic Specific Energy Rating Analysis of Outdoor PV Field Data</i>
+tags: energy_transition pv
 ---
 
 Recent work with Teodora S. Lyubenova and Ewan D. Dunlop conducted during my scientific traineeship at the European Commission's Joint Research Center.
