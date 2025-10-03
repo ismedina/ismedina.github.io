@@ -23,4 +23,4 @@ I hold a BSc Mathematics and a BSc Physics from the Universidad Complutense de M
 
 Since April 2025 I work as Senior Algorithm Developer at [RIZM](https://www.rizm.de/?lang=en), where I develop optimization and forecasting algorithms to help industrial companies power their energy transition.
 
-As part of my PhD I was a visiting scientist at TU München until February 2025. I also completed a scientific traineeship at the European Commission's Joint Research Center, in Ispra, Italy. I focused on performance models for PV devices and applying data science and machine learning to geo-spatial PV data.
+As part of my PhD I was a visiting scientist at TU München until February 2025. I also completed a scientific traineeship at the European Commission's Joint Research Center, in Ispra, Italy. I focused on performance models for PV devices and applying data science and machine learning to geo-spatial PV data with applications to policymaking.
