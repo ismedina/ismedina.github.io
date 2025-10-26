@@ -8,28 +8,26 @@ description: An elegant evening of mystery and intrigue
 
 # The will of Samuel von Jung
 
-<div class="content">
-  <p>Dear friend, dear investigator, thanks for not giving up and arriving until here. Hopefully many aspects of my (foreseeable) passing away have been clarified by now. But probably a last mistery remains. 
-  <br>
-  This question that remains is: who did, in fact, kill me, Samuel von Jung? 
-  <br>
-  In order to solve this crime and reveal my will, you will need to pass this final test.</p>
+<div class="content" style="text-align: center;">
+  <p>Dear friend, thanks for arriving until here. Hopefully many aspects of my passing away have been clarified by now. But most likely a last mistery remains: 
+  <br><br>
+  Who did, in fact, committed the crime? 
+  <br><br>
+  I sensed that this moment was approaching, so I arranged this form that will reveal my will once our suspicions about the killer align. 
+  Please vote to decide who is most likely to be blamed.</p>
   <div style="text-align: center;">
     <form id="caesarForm">
 
       <div style="margin-bottom: 20px;">
-        <label for="key">Key Phrase: </label><br>
         <input type="text" 
                id="key" 
                name="key" 
                value="" 
+               placeholder="Insert a single word"
                pattern="[A-Za-z ]+" 
                required 
                style="text-transform: uppercase;">
       </div>
-
-      <!-- Only decryption is allowed per requirements; removed encrypt/decrypt selector -->
-
       <button type="submit">Submit</button>
     </form>
     <p><span id="encryptedText" aria-live="polite"></span></p>
@@ -86,10 +84,26 @@ function multiKeyCaesarCipher(str, keyPhrase, isDecrypting = false) {
   return result;
 }
 
+// Make the placeholder disappear immediately on focus (click) and restore on blur if left empty.
+var keyInput = document.getElementById('key');
+if (keyInput) {
+  keyInput.addEventListener('focus', function() {
+    // save the placeholder text and clear it so it disappears on click/focus
+    this.dataset._ph = this.placeholder;
+    this.placeholder = '';
+  });
+  keyInput.addEventListener('blur', function() {
+    // restore placeholder only if the field is still empty
+    if (this.value.trim() === '') {
+      this.placeholder = this.dataset._ph || 'Insert a single word';
+    }
+  });
+}
+
 document.getElementById('caesarForm').addEventListener('submit', function(e) {
   e.preventDefault();
   // Encoded message is stored but not shown in UI
-  var message = 'eocokaecdmvidvl! Yzc xawns eao vqdxgd hifupt nap jjvz. Iylwqf, cpxbtltaeo ptzfelbwe cla ttypzk ah ojz lonqwfa, sfcxekqfs ws aqde wmeaps.';
+  var message = 'Eocokaecdmvidvl! Yzc xawns eao vqdxgd Hifupt nap Jjvz. Iylwqf, cpxbtltaeo ptzfelbwe cla ttypzk ah ojz lonqwfa, sfcxekqfs ws aqde wmeaps.';
   var keyPhrase = document.getElementById('key').value;
   // Only allow decryption
   var isDecrypting = true;
