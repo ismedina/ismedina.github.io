@@ -100,10 +100,24 @@ if (keyInput) {
   });
 }
 
+// Load encoded messages when the page loads
+var encodedData = {
+  encodedMessages: ['ZINCS PGVNU'],
+  expectedFirstWords: ['HELLO']
+};
+
+fetch('/assets/data/encoded_messages.json')
+  .then(response => response.json())
+  .then(data => {
+    encodedData = data;
+  })
+  .catch(error => {
+    console.error('Error loading encoded messages:', error);
+    // Fallback message is already set in encodedData
+  });
+
 document.getElementById('caesarForm').addEventListener('submit', function(e) {
   e.preventDefault();
-  // Encoded message is stored but not shown in UI
-  var message = 'Eocokaecdmvidvl! Yzc xawns eao vqdxgd Hifupt nap Jjvz. Iylwqf, cpxbtltaeo ptzfelbwe cla ttypzk ah ojz lonqwfa, sfcxekqfs ws aqde wmeaps.';
   var keyPhrase = document.getElementById('key').value;
   // Only allow decryption
   var isDecrypting = true;
@@ -114,26 +128,31 @@ document.getElementById('caesarForm').addEventListener('submit', function(e) {
     return;
   }
 
-  // The saved first word of the decoded message (letters-only)
-  var savedDecodedFirstWord = 'CONGRATULATIONS';
+  // Try each message-firstWord pair
+  var foundMatch = false;
+  var matchedResult = '';
 
-  // Perform decryption
-  var result = multiKeyCaesarCipher(message, keyPhrase, isDecrypting);
+  for (var i = 0; i < encodedData.encodedMessages.length; i++) {
+    var result = multiKeyCaesarCipher(encodedData.encodedMessages[i], keyPhrase, isDecrypting);
+    var firstWordMatch = (result.match(/[A-Za-z]+/) || [''])[0].toUpperCase();
 
-  // Extract the first contiguous word of letters from the decrypted result
-  var firstWordMatch = (result.match(/[A-Za-z]+/) || [''])[0].toUpperCase();
+    if (firstWordMatch === encodedData.expectedFirstWords[i]) {
+      foundMatch = true;
+      matchedResult = result;
+      break;
+    }
+  }
 
   var outEl = document.getElementById('encryptedText');
-  // Only show the decrypted output if the first decoded word matches the saved one
   // Cancel any ongoing typewriter before starting a new reveal
   if (outEl._typewriterTimer) {
     clearInterval(outEl._typewriterTimer);
     outEl._typewriterTimer = null;
   }
 
-  if (firstWordMatch === savedDecodedFirstWord) {
+  if (foundMatch) {
     // Typewriter reveal for the full decrypted result
-    var typingText = result;
+    var typingText = matchedResult;
     outEl.textContent = '';
     var ti = 0;
     outEl._typewriterTimer = setInterval(function() {
@@ -143,10 +162,10 @@ document.getElementById('caesarForm').addEventListener('submit', function(e) {
         clearInterval(outEl._typewriterTimer);
         outEl._typewriterTimer = null;
       }
-    }, 40); // ms per character
+    }, 20); // ms per character
   } else {
-    // Typewriter reveal for incorrect answer
-    var typingText = 'Incorrect answer';
+    // Custom error message incorporating the tried key
+    var typingText = keyPhrase.toUpperCase() + '? What does ' + keyPhrase.toUpperCase() + ' have to do with all of this?';
     outEl.textContent = '';
     var ti = 0;
     outEl._typewriterTimer = setInterval(function() {
@@ -156,7 +175,7 @@ document.getElementById('caesarForm').addEventListener('submit', function(e) {
         clearInterval(outEl._typewriterTimer);
         outEl._typewriterTimer = null;
       }
-    }, 10); // ms per character
+    }, 20); // ms per character
   }
 });
 </script>
