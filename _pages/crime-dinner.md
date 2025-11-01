@@ -13,7 +13,7 @@ description: An elegant evening of mystery and intrigue
   <br><br>
   Who did, in fact, committed the crime? 
   <br><br>
-  I sensed that this moment was approaching, so I arranged this form that will reveal my will once our suspicions about the killer align. 
+  This page will reveal my will once our suspicions about the killer align. 
   Please vote to decide who is most likely to be blamed.</p>
   <div style="text-align: center;">
     <form id="caesarForm">
